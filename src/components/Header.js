@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Nav, Navbar, NavDropdown,  Button} from 'react-bootstrap';
 import { BsSearch } from 'react-icons/bs'
+import { Link } from 'react-router-dom';
 import {ReactComponent as EdukidsLogo} from '../img/edukids_logo.svg';
 
 const Header = () => {
@@ -16,22 +17,22 @@ const Header = () => {
             <Container>
                 <Container variant="myblue">
                 <Nav className="justify-content-center">
-                        <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="about">About</Nav.Link>
-                        <NavDropdown title="Class">
-                            <NavDropdown.Item href="classes">Classes</NavDropdown.Item>
-                            <NavDropdown.Item href="classdetail">Class Detail</NavDropdown.Item>
+                        <Nav.Link><Link to={process.env.PUBLIC_URL + '/'} style={{color: 'gray', textDecoration: 'none'}}>Home</Link></Nav.Link>
+                        <Nav.Link><Link to={process.env.PUBLIC_URL + '/About'} style={{color: 'gray', textDecoration: 'none'}}>About</Link></Nav.Link>
+                        <NavDropdown title="Class" style={{color: 'gray', textDecoration: 'none'}}>
+                            <NavDropdown.Item><Link to={process.env.PUBLIC_URL + "/Classes"} style={{color: 'gray', textDecoration: 'none'}}>Classes</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link to={process.env.PUBLIC_URL + "/ClassDetail"} style={{color: 'gray', textDecoration: 'none'}}>Class Details</Link></NavDropdown.Item>
                         </NavDropdown>
-                        <NavDropdown title="Event">
-                            <NavDropdown.Item href="events">Events</NavDropdown.Item>
+                        <NavDropdown title="Event" style={{color: 'gray', textDecoration: 'none'}}>
+                            <NavDropdown.Item><Link to={process.env.PUBLIC_URL + "/Events"} style={{color: 'gray', textDecoration: 'none'}}>Events</Link></NavDropdown.Item>
                         </NavDropdown>
-                        <NavDropdown title="Other">
-                            <NavDropdown.Item href="contact">Contact Us</NavDropdown.Item>
-                            <NavDropdown.Item href="faq">FAQ</NavDropdown.Item>
-                            <NavDropdown.Item href="team">Team</NavDropdown.Item>
-                            <NavDropdown.Item href="career">Career</NavDropdown.Item>
-                            <NavDropdown.Item href="careerdetails">Career Details</NavDropdown.Item>
-                            <NavDropdown.Item href="facilities">Facilities</NavDropdown.Item>
+                        <NavDropdown title="Other" style={{color: 'gray', textDecoration: 'none'}}>
+                            <NavDropdown.Item><Link to={process.env.PUBLIC_URL + "/Contact"} style={{color: 'gray', textDecoration: 'none'}}>Contact Us</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link to={process.env.PUBLIC_URL + "/FAQ"} style={{color: 'gray', textDecoration: 'none'}}>FAQ</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link to={process.env.PUBLIC_URL + "/Team"} style={{color: 'gray', textDecoration: 'none'}}>Team</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link to={process.env.PUBLIC_URL + "/Career"} style={{color: 'gray', textDecoration: 'none'}}>Career</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link to={process.env.PUBLIC_URL + "/CareerDetails"} style={{color: 'gray', textDecoration: 'none'}}>Career Details</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link to={process.env.PUBLIC_URL + "/Facilities"} style={{color: 'gray', textDecoration: 'none'}}>Facilities</Link></NavDropdown.Item>
                         </NavDropdown>
                 </Nav>
                 </Container>

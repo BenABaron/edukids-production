@@ -17,18 +17,18 @@ import testGal from "./components/testGal";
 const Router = () => {
     return (
         <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/About" component={About} />
-        <Route exact path="/Career" component={Career} />
-        <Route exact path="/Events" component={Events} />
-        <Route exact path="/Classes" component={Classes} />
-        <Route exact path="/Contact" component={Contact} />
-        <Route exact path="/ClassDetail" component={ClassDetail} />
-        <Route exact path="/Team" component={Team} />
-        <Route exact path="/CareerDetails" component={CareerDetail} />
-        <Route exact path="/FAQ" component={FAQ} />
-        <Route exact path="/Facilities" component={Facilities} />
-        <Route exact path="/testGal" component={testGal} />
+        <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
+        <Route exact path={process.env.PUBLIC_URL + "/About"} component={About} />
+        <Route exact path={process.env.PUBLIC_URL + "/Career"} component={Career} />
+        <Route exact path={process.env.PUBLIC_URL + "/Events"} component={Events} />
+        <Route exact path={process.env.PUBLIC_URL + "/Classes"} component={Classes} />
+        <Route exact path={process.env.PUBLIC_URL + "/Contact"} component={Contact} />
+        <Route exact path={process.env.PUBLIC_URL + "/ClassDetail"} component={ClassDetail} />
+        <Route exact path={process.env.PUBLIC_URL + "/Team"} component={Team} />
+        <Route exact path={process.env.PUBLIC_URL + "/CareerDetails"} component={CareerDetail} />
+        <Route exact path={process.env.PUBLIC_URL + "/FAQ"} component={FAQ} />
+        <Route exact path={process.env.PUBLIC_URL + "/Facilities"} component={Facilities} />
+        <Route exact path={process.env.PUBLIC_URL + "/testGal"} component={testGal} />
         </Switch>
     )
 }
