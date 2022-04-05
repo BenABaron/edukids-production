@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/edukids-production/static/css/main.3d2d544e.chunk.css",
-    "main.js": "/edukids-production/static/js/main.896a73d7.chunk.js",
-    "main.js.map": "/edukids-production/static/js/main.896a73d7.chunk.js.map",
+    "main.js": "/edukids-production/static/js/main.0f0c9031.chunk.js",
+    "main.js.map": "/edukids-production/static/js/main.0f0c9031.chunk.js.map",
     "runtime-main.js": "/edukids-production/static/js/runtime-main.3d9e78b5.js",
     "runtime-main.js.map": "/edukids-production/static/js/runtime-main.3d9e78b5.js.map",
     "static/css/2.0a9ec390.chunk.css": "/edukids-production/static/css/2.0a9ec390.chunk.css",
@@ -50,6 +50,6 @@
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.59a49c52.chunk.js",
     "static/css/main.3d2d544e.chunk.css",
-    "static/js/main.896a73d7.chunk.js"
+    "static/js/main.0f0c9031.chunk.js"
   ]
 }
