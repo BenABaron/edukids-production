@@ -1,0 +1,1192 @@
+@import url("https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  --orange: rgb(250, 100, 46);
+  --purple: #2e1b5c;
+  --gold: #ebaa0f;
+  --green: #05b992;
+}
+
+body {
+  font-family: "Amaranth", sans-serif;
+}
+
+.bg-myblue {
+  background-color: blue;
+}
+
+.Title {
+  color: red;
+}
+
+.bg-myorange {
+  background-color: orange;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.fa {
+  width: 100%;
+  padding: 10px;
+  padding-top: 5px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+}
+
+.fa-twitter {
+  background: #55acee;
+}
+
+.fa-instagram {
+  background: #8a3ab9;
+}
+
+.fa-youtube {
+  background: #bb0000;
+}
+
+/* .special-card-header {
+  color: pink;
+  background-color: wheat;
+} */
+
+/* ABOUT CSS */
+
+.About-Head-Row {
+  color: orange;
+  text-align: center;
+}
+
+.About-Title{
+  margin-top:25px;
+  margin-bottom: 20px;
+  color: #2e1b5c !important;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.About-Col {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.About-Card {
+  border: none;
+}
+
+.About-Card-With-Image {
+  border-color: rgb(218, 218, 218);
+  border-width: 20px;
+  border-radius: 15px;
+}
+
+.About-Row {
+  margin: 20px;
+}
+
+.About-Card-Image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.About-Card-Text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.About-list-group-item {
+  /* display: list-item; */
+  border: none;
+
+  /* list-style-type: none; */
+}
+
+.About-Green-Row {
+  background-color: rgb(75, 193, 118);
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  /* border-color: rgb(199, 85, 47);
+  border-bottom: 3px solid rgb(199, 85, 47); */
+}
+
+.About-Green-Icon-Row {
+  margin: 20px;
+}
+
+.About-icons {
+  margin: 30px;
+  font-size: 44px;
+}
+
+/* CAREER CSS */
+.Career-card-column {
+  margin-left: 30px;
+}
+
+.Career-card-a {
+  border: none;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.Career-card-title-a {
+  font-size: 45px;
+  font-weight: 700;
+  color: #2e224c;
+  margin-bottom: 20px;
+}
+
+.Career-card-text {
+  font-size: medium;
+}
+
+.Career-card-header {
+  background-color: white;
+  color: rgb(250, 100, 46);
+  width: fit-content;
+  font-weight: 700;
+}
+
+.Career-card-header-a {
+  border: 2px solid rgb(250, 100, 46);
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.Career-card-b {
+  margin-bottom: 30px;
+}
+
+.Career-card-header-b {
+  border: none;
+  padding: 0;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+
+.Career-card-title-b {
+  font-weight: 700;
+  color: #2e224c;
+  margin-bottom: 20px;
+}
+
+.Career-card-text-b {
+  margin-bottom: 30px;
+  width: 80%;
+}
+
+.Career-button {
+  width: 80%;
+  height: 50px;
+  background-color: rgb(250, 100, 46);
+  border-radius: 30px;
+  border-color: rgb(199, 85, 47);
+  border-bottom: 3px solid rgb(199, 85, 47);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.Career-form {
+  background-color: rgb(250, 100, 46);
+  border: 2px solid rgb(199, 85, 47);
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.Career-form-label {
+  font-weight: 700;
+  margin: 30px 0 25px;
+  color: white;
+}
+
+.Career-form-control {
+  padding: 10px;
+  margin: auto auto 10px auto;
+  width: 90%;
+}
+
+.Career-form-button {
+  width: 90%;
+  background-color: rgb(1, 184, 145);
+  border-color: rgb(26, 100, 84);
+  border-bottom: 3px solid rgb(26, 100, 84);
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.Career-row-d {
+  margin-top: 50px;
+}
+
+.Career-card-d {
+  border: none;
+  text-align: right;
+}
+
+.Career-card-header-d {
+  border: 2px solid rgb(250, 100, 46);
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+.Career-card-text-d {
+  font-size: x-large;
+  width: 90%;
+  margin-left: auto;
+  color: #2e224c;
+  font-weight: 700;
+}
+
+.Career-card-e {
+  width: 90%;
+  border: none;
+  margin-top: 10px;
+}
+
+.Career-row-c {
+  width: 95%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.Career-card-c {
+  margin: auto;
+  padding: 10px;
+}
+
+.Career-card-title-c {
+  font-weight: 700;
+  color: #2e224c;
+}
+
+.Career-icon-background {
+  background-color: rgb(250, 100, 46);
+  margin-left: 10px;
+  text-align: center;
+}
+
+.Career-icons {
+  margin-top: 18px;
+  font-size: 44px;
+}
+
+/* CAREER DETAIL CSS */
+.CareerDetail-card-header {
+  background-color: rgb(250, 100, 46);
+  color: white;
+  text-align: center;
+}
+
+.CareerDetail-list-group-item {
+  /* display: list-item; */
+  border: none;
+
+  /* list-style-type: none; */
+}
+
+.CareerDetail-beige-background-card {
+  background-color: #f8f8f8;
+  margin-bottom: 30px;
+}
+
+.CareerDetail-accordion-item {
+  margin: 25px;
+}
+
+.CareerDetail-span {
+  color: rgb(250, 100, 46);
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.CareerDetail-fa {
+  width: 70px;
+  padding: 15px;
+  padding-top: 10px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+  border-radius: 50%;
+  background-color: rgb(250, 100, 46);
+}
+
+.CareerDetial-Card-Body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.CareerDetail-Button {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(250, 100, 46);
+  border-radius: 30px;
+  border-color: rgb(199, 85, 47);
+  border-bottom: 3px solid rgb(199, 85, 47);
+}
+
+.CareerDetail-Card {
+  border: none;
+}
+
+.CareerDetail-Card-Body {
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-bottom: 0px;
+}
+.CareerDetail-Column {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.CareerDetial-Right-Row {
+  background-color: rgb(250, 100, 46);
+  padding: 30px;
+}
+
+.CareerDetial-Right-Row-Row {
+  align-items: center;
+  text-align: center;
+}
+
+.CareerDetail-Right-Colum {
+  background-color: rgb(250, 100, 46);
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+
+/* CLASS DETAIL CSS */
+
+.ClassDetail-h2 {
+  margin-top:25px;
+  color: #2e1b5c !important;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.ClassDetail-h4 {
+  color: #2e1b5c !important;
+  padding: 25px 0;
+  font-weight: 600;
+}
+.ClassDetail-p {
+  color: #220d38;
+  font-weight: 100;
+  padding-bottom: 10px;
+}
+.ClassDetail-container {
+  max-width: 90vw;
+  margin-top: -40px;
+  padding-bottom: 150px;
+}
+.ClassDetail-list-style {
+  list-style: none;
+  padding-left: 0px;
+}
+.ClassDetail-bottom-right-col {
+  display: flex;
+  justify-content: flex-end;
+}
+.ClassDetail-teacher-card-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 350px;
+  width: 250px;
+  background-color: #03b991;
+  color: whitesmoke;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+.ClassDetail-teacher-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.ClassDetail-teacher-img {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  margin-top: -15px;
+}
+.ClassDetail-teacher-card-text {
+  text-align: center;
+  margin-top: 25px;
+}
+.ClassDetail-teacher-small-text {
+  font-size: 10px;
+}
+.ClassDetail-information-card-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 250px;
+  background-color: #fff;
+  color: #220d38;
+  border-radius: 20px;
+}
+.classDetail-information-button {
+  background-color: rgb(250, 100, 46);
+  color: #fff;
+  padding: 4px 50px;
+  border: none;
+  border-radius: 25px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  margin-left: 12px;
+}
+.classDetail-information-paragraph {
+  font-size: 10px;
+  font-weight: 600;
+}
+.classDetail-information-title {
+  color: rgb(250, 100, 46);
+  font-size: 11px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.classDetail-information-item {
+  color: #220d38;
+  font-weight: 800;
+  font-size: 14px;
+  margin-top: -8px;
+}
+.classDetail-Description-image {
+  border-radius: 25px;
+}
+.classDetail-Activities-gallery-photo {
+  height: auto;
+  width: auto;
+  border-radius: 20px;
+  margin-right: 6px;
+}
+.ClassDetail-social-container {
+  max-width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+.ClassDetail-social {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 0 4px;
+  color: whitesmoke;
+  margin: 2px;
+  margin-top: 4px;
+}
+
+/* CLASSES CSS */
+
+.Classes-Col {
+  display: flex;
+  justify-content: center;
+}
+
+.Classes-Card {
+  width: 380px;
+  height: 500px;
+  border-radius: 5%;
+  padding: 2%;
+  /* display:flex;
+  justify-content: center;
+  flex-wrap: wrap; */
+}
+
+.Classes-Card-Body {
+  color: white;
+  text-align: center;
+}
+
+.Classes-Card-Img {
+  width: 360px;
+  height: 280px;
+  border-radius: 8%;
+  border: 3px solid white;
+}
+
+.Classes-Card-Col {
+  border-right: 1px solid rgba(255, 255, 255, 0.42);
+}
+
+.Classes-Body-Title {
+  color: #2e1b5c !important;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.Classes-Col-Form {
+  display: flex;
+  justify-content: center;
+}
+.Classes-Form {
+  width: 450px;
+  height: 500px;
+  color: white;
+  border-radius: 8%;
+  background-color: rgb(254, 93, 55);
+  padding: 30px;
+  text-align: center;
+}
+
+.mb-3 {
+  margin-top: 1rem;
+}
+
+.Classes-Form-Button {
+  background-color: rgb(4, 185, 146);
+  border-color: rgb(4, 162, 128);
+  border-bottom: 3px solid rgb(5, 145, 115);
+}
+
+.Classes-Row-2 {
+  margin-top: 30px;
+}
+
+.Classes-Row-3 {
+  margin: 60px;
+}
+
+/* CONTACT CSS */
+.Contact-mainContainer {
+  width: 100%;
+}
+
+.Contact-leftCol {
+  align-items: center;
+}
+
+.Contact-contactHeader {
+  margin-top: 1rem;
+  border: none;
+  width: 69%;
+  margin: auto;
+  height: auto;
+  padding-left: 0;
+}
+
+
+.Contact-contactHeader span {
+  color: var(--purple);
+}
+
+.Contact-locationBadge {
+  width: 70%;
+  margin: auto;
+  height: auto;
+  color: white;
+  background-color: rgb(250, 100, 46) !important;
+}
+
+
+.Contact-headerTitle {
+  color: #2e1b5c !important;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.Contact-headerBody {
+  font-size: 14;
+}
+
+.Contact-addressBadge {
+  width: 70%;
+  margin: auto;
+  height: auto;
+  color: white;
+  background-color: #05b992 !important;
+}
+
+.Contact-phoneBadge {
+  width: 70%;
+  margin: auto;
+  height: auto;
+  color: white;
+  background-color: #ebaa0f !important;
+}
+
+.Contact-icon {
+  width: 3vw;
+  height: 3vw;
+  margin-top: 0.5vw;
+}
+
+.Contact-formCard {
+  margin: auto;
+  padding: 1rem;
+}
+
+.Contact-formBtn {
+  background-color: rgb(250, 100, 46) !important;
+  border-color: var(--orange);
+  border-bottom: 2px solid rgb(191, 75, 33);
+}
+/* EVENTS CSS */
+
+.nounderline {
+  text-decoration: none !important;
+}
+
+.ev-header {
+  width: 100%;
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  color: rgb(250, 100, 46);
+  font-weight: 700;
+  border: 2px solid rgb(250, 100, 46);
+}
+
+.ev-text-center{
+  margin-top:25px;
+  margin-bottom: 20px;
+  color: #2e1b5c !important;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+/* FACILITIES CSS */
+
+.Facilities-Container {
+  margin-top: -62px;
+}
+.Facilities-form {
+  justify-content: center;
+}
+.form_btn_custom {
+  padding: 8px 16px;
+  width: 100%;
+  background-color: var(--green);
+  border: none;
+}
+.Facilities-card-icon1 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #03b790;
+  padding: 10px;
+  /* filter: invert(100%); */
+  font-weight: 800;
+}
+.Facilities-card-icon2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #ff5d37;
+  padding: 10px;
+  /* filter: invert(100%); */
+  font-weight: 800;
+}
+.Facilities-card-icon3 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #ebaa12;
+  padding: 10px;
+  /* filter: invert(100%); */
+  font-weight: 800;
+}
+
+.Facilities-card-text1 {
+  color: #03b790;
+  font-weight: 700;
+  font-size: 22px;
+}
+.Facilities-card-text2 {
+  color: #ff5d37;
+  font-weight: 700;
+  font-size: 22px;
+}
+.Facilities-card-text3 {
+  color: #ebaa12;
+  font-weight: 700;
+  font-size: 22px;
+}
+.Facilities-green-row {
+  margin: 4rem 0 6rem 0;
+  background-color: var(--green);
+}
+
+/* FOOTER CSS */
+.footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: white;
+  position: static;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer-icon {
+  background-color: var(--orange);
+}
+
+/* FREQUENT QUESTIONS CSS */
+.FAQ-card {
+  border: none;
+}
+
+.FAQ-card-header {
+  background-color: white;
+  color: rgb(250, 100, 46);
+  width: fit-content;
+  font-weight: 700;
+  border: 2px solid rgb(250, 100, 46);
+  margin-bottom: 25px;
+}
+
+.FAQ-card-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2e224c;
+  margin-bottom: 20px;
+}
+
+.FAQ-card-text {
+  margin-bottom: 30px;
+}
+
+.FAQ-accordion {
+}
+
+.FAQ-accordion-item {
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 5px #c0c4cf;
+  border: none;
+}
+
+.FAQ-accordion-header button {
+  color: #2e224c;
+  font-weight: 700;
+}
+
+.FAQ-form {
+  background-color: rgb(250, 100, 46);
+  border: 2px solid rgb(199, 85, 47);
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.FAQ-form-label {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 40px 0 30px;
+  color: white;
+}
+
+.FAQ-form-control {
+  padding: 10px;
+  margin: auto auto 10px auto;
+  height: 60px;
+  width: 90%;
+}
+
+.FAQ-form-button {
+  width: 90%;
+  background-color: rgb(1, 184, 145);
+  border-color: rgb(26, 100, 84);
+  border-bottom: 3px solid rgb(26, 100, 84);
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.FAQ-image-card {
+  border: none;
+}
+
+.FAQ-image-caption {
+  width: 85%;
+  background-color: rgb(250, 100, 46);
+  margin-left: 16px;
+  margin-top: -70px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.FAQ-image-caption-icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/* HEADER CSS */
+
+.svg {
+  width: 100px;
+  height: 25px;
+}
+
+.svg-footer {
+  width: 150px;
+  height: 50px;
+}
+
+.header {
+  position: fixed;
+}
+
+.Header-searchButton {
+  background-color: var(--green);
+  color: white;
+  width: 40px;
+  border-color: var(--green);
+  border-radius: 60px;
+}
+
+.Header-searchBar {
+  width: 20px;
+}
+
+.Header-formBtn {
+  background-color: rgb(250, 100, 46) !important;
+  font-weight: bold;
+  white-space: nowrap;
+  border-color: rgb(191, 77, 36);
+  border-bottom: 2px solid rgb(191, 77, 36);
+  margin-right:10px;
+}
+
+
+
+/* HOME CSS */
+
+.Home-Head-Container {
+  background-image: url("./img/home-page-girl-with-paint.jpg");
+  height: 1000px;
+  background-size: cover;
+  padding: 100px;
+  text-align: center;
+  color: white;
+}
+
+.Home-Head-H1 {
+  width: 70%;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-size: 70px;
+  font-weight: 900;
+}
+
+.Home-Bottom-Container {
+  background-image: url("./img/boys-and-girls-dancing-colored.jpg");
+  width: 100%;
+  background-size: cover;
+  padding: 100px;
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  height: 625px;
+}
+
+.Home-Button-a {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(250, 100, 46);
+  border-radius: 30px;
+  border-color: rgb(199, 85, 47);
+  border-bottom: 3px solid rgb(199, 85, 47);
+  font-weight: 700;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+.Home-Button-b {
+  width: 200px;
+  height: 50px;
+  background-color: #05b992;
+  border-radius: 30px;
+  border-color: #029373;
+  border-bottom: 3px solid #029373;
+  font-weight: 700;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+.Home-button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+.Home-Title-Body-a {
+  display: flex;
+  text-align: center;
+  border: none;
+}
+
+.Home-Title {
+  font-size: 45px;
+  font-weight: 700;
+  color: #2e224c;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.Home-Card {
+  border: none;
+}
+
+.Home-Card-Col {
+  display: flex;
+  justify-content: center;
+}
+
+.Home-List-Group-Item {
+  border: none;
+  padding: 0px;
+}
+
+.Home-Cards {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 95%;
+  margin: auto;
+  margin-top: 10px;
+  padding: 30px;
+  color: white;
+  border-radius: 10%;
+}
+
+.Home-Cards-a {
+  background-color: #05b992 !important;
+  border-color: rgb(32, 126, 106);
+  border-bottom: 3px solid rgb(32, 126, 106);
+}
+
+.Home-Cards-b {
+  background-color: rgb(254, 93, 55) !important;
+  border-color: rgb(210, 78, 49);
+  border-bottom: 3px solid rgb(210, 78, 49);
+}
+.Home-Cards-c {
+  background-color: rgb(234, 170, 20) !important;
+  border-color: rgb(187, 140, 29);
+  border-bottom: 3px solid rgb(187, 140, 29);
+}
+
+.Home-Card-Icon {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.Home-Image-Card {
+  border: none;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.Home-Image {
+  width: 300px;
+  border: 12px solid pink;
+  border-radius: 15%;
+}
+
+.Home-Image-a {
+  position: absolute;
+  margin-left: 30px;
+}
+
+.Home-Image-b {
+  margin-left: 200px;
+  margin-top: 150px;
+}
+
+@media (max-width: 600px) {
+  .Home-Image-b {
+    margin-left: 40px;
+    margin-top: 210px;
+  }
+
+  .Home-Head-H1 {
+    font-size: 45px;
+  }
+}
+
+.Home-Facilities-Card {
+  border: none;
+  margin: auto;
+  width: 85%;
+  /* padding: 10px; */
+}
+
+.Home-Facilities-Icon-Wrapper {
+  height: 70px;
+  width: 70px;
+  margin-left: 10px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.Home-Facilities-Card-Icon {
+  margin-top: 12px;
+  font-size: 44px;
+}
+
+.Home-Card-Classes-Info {
+  border: none;
+  text-align: center;
+}
+
+.Home-Classes-Info-Big-Text {
+  font-size: 45px;
+  margin-bottom: -10px;
+  padding-top: 25px;
+}
+
+.Home-Classes-Info-Wrapper {
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  border-radius: 50%;
+  margin: auto;
+  box-shadow: 0 0 10px rgb(105, 105, 105);
+}
+
+.Home-Bottom-Container {
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+.Classes-Card{
+  margin-top: 10px;
+}
+.Classes-Card-Img {
+  max-width: 99%;
+  height: 280px;
+  border-radius: 8%;
+  border: 3px solid white;
+}
+
+/* .Classes-List-Group-Item {
+  border: none;
+} */
+/* TEAM CSS */
+
+.Team-Card {
+  border: none;
+  margin: 30px;
+}
+
+.Team-Card-Image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.Team-Card-Body1 {
+  background-color:rgb(254,93,55);
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+}
+
+.Team-Card-Body2 {
+  background-color:rgb(4,185,146);
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+}
+
+.Team-Card-Body3 {
+  background-color: rgb(234,170,20);
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+}
+.Team-fa {
+  padding: 5px;
+  padding-top: 0px;
+  border: 1px solid white;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+  border-radius: 50%;
+}
+
+/* HEAD CSS */
+.Head-Container {
+  background-image: url("./img/head-image-with-clouds.png");
+  height: 600px;
+  background-size: cover;
+  padding: 5.3rem;
+  text-align: center;
+  color: white;
+}
+
+.Head-H1 {
+  font-size: 50px;
+  font-weight: 900;
+}
