@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/edukids-production/static/css/main.3d2d544e.chunk.css",
-    "main.js": "/edukids-production/static/js/main.97e9ae85.chunk.js",
-    "main.js.map": "/edukids-production/static/js/main.97e9ae85.chunk.js.map",
+    "main.js": "/edukids-production/static/js/main.896a73d7.chunk.js",
+    "main.js.map": "/edukids-production/static/js/main.896a73d7.chunk.js.map",
     "runtime-main.js": "/edukids-production/static/js/runtime-main.3d9e78b5.js",
     "runtime-main.js.map": "/edukids-production/static/js/runtime-main.3d9e78b5.js.map",
     "static/css/2.0a9ec390.chunk.css": "/edukids-production/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.9de6272c.chunk.js": "/edukids-production/static/js/2.9de6272c.chunk.js",
-    "static/js/2.9de6272c.chunk.js.map": "/edukids-production/static/js/2.9de6272c.chunk.js.map",
+    "static/js/2.59a49c52.chunk.js": "/edukids-production/static/js/2.59a49c52.chunk.js",
+    "static/js/2.59a49c52.chunk.js.map": "/edukids-production/static/js/2.59a49c52.chunk.js.map",
     "static/js/3.8ff97fcd.chunk.js": "/edukids-production/static/js/3.8ff97fcd.chunk.js",
     "static/js/3.8ff97fcd.chunk.js.map": "/edukids-production/static/js/3.8ff97fcd.chunk.js.map",
     "index.html": "/edukids-production/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/edukids-production/static/css/2.0a9ec390.chunk.css.map",
     "static/css/main.3d2d544e.chunk.css.map": "/edukids-production/static/css/main.3d2d544e.chunk.css.map",
-    "static/js/2.9de6272c.chunk.js.LICENSE.txt": "/edukids-production/static/js/2.9de6272c.chunk.js.LICENSE.txt",
+    "static/js/2.59a49c52.chunk.js.LICENSE.txt": "/edukids-production/static/js/2.59a49c52.chunk.js.LICENSE.txt",
     "static/media/adorable-kids-playing-with-constructor-on-floor-in-ZP6VC78.15359559.jpg": "/edukids-production/static/media/adorable-kids-playing-with-constructor-on-floor-in-ZP6VC78.15359559.jpg",
     "static/media/ana_scott.2dfeeaba.jpg": "/edukids-production/static/media/ana_scott.2dfeeaba.jpg",
     "static/media/boys-and-girls-dancing-PZNK4D9.fbeef816.jpg": "/edukids-production/static/media/boys-and-girls-dancing-PZNK4D9.fbeef816.jpg",
@@ -48,8 +48,8 @@
   "entrypoints": [
     "static/js/runtime-main.3d9e78b5.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.9de6272c.chunk.js",
+    "static/js/2.59a49c52.chunk.js",
     "static/css/main.3d2d544e.chunk.css",
-    "static/js/main.97e9ae85.chunk.js"
+    "static/js/main.896a73d7.chunk.js"
   ]
 }
